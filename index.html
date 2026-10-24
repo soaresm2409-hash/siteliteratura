@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quem são elas?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Quem são elas?</h1>
+        <p>O apagamento das mulheres na literatura</p>
+    </header>
+
+    <section class="abertura">
+        <h2 id="pergunta">Quem escreveu de verdade?</h2>
+        <img src="imag.png" alt="Mulher escrevendo à máquina, com o rosto apagado" width="600" height="364">
+    </section>
+
+    <main class="container">
+        <section class="conteudo">
+
+            <article>
+                <h2>Por que assinar com outro nome?</h2>
+                <p>
+                    Durante muito tempo, várias mulheres precisaram usar nomes de homens ou publicar de forma
+                    anônima para conseguirem ter seus livros vendidos e lidos sem preconceito. Nem todas tinham
+                    o mesmo motivo: algumas queriam ser levadas a sério, outras protegiam a privacidade ou
+                    fugiam da pressão da família e da sociedade.
+                </p>
+                <blockquote>
+                    <p>Tínhamos a vaga impressão de que as autoras costumam ser vistas com preconceito.</p>
+                    <footer>— <cite>Charlotte Brontë</cite>, nota biográfica sobre Ellis e Acton Bell (1850), tradução livre</footer>
+                </blockquote>
+            </article>
+
+            <article>
+                <h3>Maria Firmina dos Reis (Brasil)</h3>
+                <p>
+                    Publicou <em>Úrsula</em> em 1859, assinando apenas como "Uma Maranhense". O livro é
+                    considerado um dos primeiros romances escritos por uma mulher no Brasil e denuncia a
+                    escravidão. Veja mais n.
+                    <a href="https://pt.wikipedia.org/wiki/Maria_Firmina_dos_Reis" target="_blank">Wikipédia</a>.
+                </p>
+            </article>
+
+            <article>
+                <h3>George Eliot (Reino Unido)</h3>
+                <p>
+                    Mary Ann Evans escolheu um nome masculino para ser lida como romancista séria. Seu livro
+                    mais conhecido é <em>Middlemarch</em>.
+                </p>
+            </article>
+
+            <article>
+                <h3>As irmãs Brontë (Reino Unido)</h3>
+                <p>
+                    Charlotte, Emily e Anne publicaram como Currer, Ellis e Acton Bell, nomes que não deixavam
+                    claro se eram homens ou mulheres.
+                </p>
+            </article>
+
+            <article>
+                <h3>Exemplos de autoras e pseudônimos</h3>
+                <p>Veja alguns casos conhecidos no Brasil e no mundo:</p>
+                <table>
+                    <caption>Autoras que publicaram com outro nome</caption>
+                    <thead>
+                        <tr>
+                            <th>Nome usado</th>
+                            <th>Nome real</th>
+                            <th>País</th>
+                            <th>Obra famosa</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>"Uma Maranhense"</td><td>Maria Firmina dos Reis</td><td>Brasil</td><td>Úrsula (1859)</td></tr>
+                        <tr><td>Nísia Floresta</td><td>Dionísia Gonçalves Pinto</td><td>Brasil</td><td>Direitos das mulheres e injustiça dos homens (1832)</td></tr>
+                        <tr><td>George Eliot</td><td>Mary Ann Evans</td><td>Reino Unido</td><td>Middlemarch</td></tr>
+                        <tr><td>Currer Bell</td><td>Charlotte Brontë</td><td>Reino Unido</td><td>Jane Eyre (1847)</td></tr>
+                        <tr><td>Ellis Bell</td><td>Emily Brontë</td><td>Reino Unido</td><td>O Morro dos Ventos Uivantes (1847)</td></tr>
+                        <tr><td>Acton Bell</td><td>Anne Brontë</td><td>Reino Unido</td><td>Agnes Grey (1847)</td></tr>
+                        <tr><td>George Sand</td><td>Aurore Dupin</td><td>França</td><td>Indiana (1832)</td></tr>
+                    </tbody>
+                </table>
+                <p class="nota">Observação: "Uma Maranhense" é uma assinatura anônima, não um nome masculino.</p>
+            </article>
+
+            <article>
+                <h2>E hoje, o problema acabou?</h2>
+                <p>
+                    Não por completo. Ainda hoje há autoras que usam iniciais ou nomes neutros nas capas, e
+                    muitas escritoras seguem fora dos currículos e das listas de leitura.
+                </p>
+                <h3>O que podemos fazer</h3>
+                <ol>
+                    <li>Ler uma autora por mês.</li>
+                    <li>Procurar autoras nas bibliotecas e nas listas de vestibular.</li>
+                    <li>Indicar livros escritos por mulheres a amigos e familiares.</li>
+                    <li>Compartilhar a história de autoras que foram esquecidas.</li>
+                </ol>
+            </article>
+            <iframe src="https://pt.m.wikipedia.org/wiki/Maria_Firmina_dos_Reis" 
+            title="Maria Firmina dos Reis" width="100%" height="300"></iframe>
+        </section>
+
+        <aside class="sidebar">
+            <h2>Quiz rápido</h2>
+            <p>Teste o que você sabe sobre essas autoras!</p>
+
+            <form id="meuForm">
+                <label for="nome">Seu nome:</label>
+                <input type="text" id="nome" placeholder="Digite seu nome..." required>
+
+                <label for="email">Seu e-mail:</label>
+                <input type="email" id="email" placeholder="voce@email.com" required>
+
+                <label for="q1">Quem assinou o livro Úrsula como "Uma Maranhense"?</label>
+                <input type="text" id="q1" placeholder="Nome da autora..." required>
+
+                <label for="q2">Qual o nome real da autora George Eliot?</label>
+                <input type="text" id="q2" placeholder="Nome real..." required>
+
+                <fieldset>
+                    <legend>Qual irmã Brontë assinava como Ellis Bell?</legend>
+                    <label><input type="radio" name="q3" value="charlotte" required> Charlotte</label>
+                    <label><input type="radio" name="q3" value="emily"> Emily</label>
+                    <label><input type="radio" name="q3" value="anne"> Anne</label>
+                </fieldset>
+
+                <div class="botoes">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+
+            <div id="resultado" aria-live="polite"></div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Projeto acadêmico de HTML5, CSS3 e JavaScript · Tema: mulheres invisibilizadas na literatura</p>
+        <p>Fontes e créditos das imagens: conferir e listar aqui.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
